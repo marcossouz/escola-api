@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Aluno, Curso
+from .models import Aluno, Curso, Matricula
 
 
 class AlunoAdmin(admin.ModelAdmin):
@@ -20,3 +20,11 @@ class CursoAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Curso, CursoAdmin)
+
+
+class MatriculaAdmin(admin.ModelAdmin):
+    list_display = ('id', 'aluno', 'curso', 'periodo')
+    list_display_links = ('id',)
+
+
+admin.site.register(Matricula, MatriculaAdmin)
