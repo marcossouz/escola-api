@@ -19,7 +19,7 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#status">status</a> •
  <a href="#funcionalidades">Funcionalidades</a> •
- <a href="#rotas">Rotas</a> •
+ <a href="#documentação">Documentação</a> •
  <a href="#informações-adicionais">Informações adicionais</a> •
  <a href="#contribuições">Autor</a>
 </p>
@@ -58,13 +58,10 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
 - [x] Listar todos os alunos de um curso
 - [x] Listar todos os cursos que um aluno está matriculado
 
-### Rotas
+### Documentação
 
-- `<URL_API>/alunos/`
-- `<URL_API>/cursos/`
-- `<URL_API>/matriculas/`
-- `<URL_API>/alunos/<id>/matriculas/`
-- `<URL_API>/cursos/<id>/matriculas/`
+- `<URL_API>/swagger/`
+- `<URL_API>/redoc/`
 
 ### Informações adicionais
 
