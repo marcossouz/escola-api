@@ -68,7 +68,7 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
 
 ### Informações adicionais
 
-- Projeto realizado em acompanhamento ao curso: <a target="_blank" href="https://cursos.alura.com.br/course/api-django-3-rest-framework">api-django-3-rest-framework</a> 
+- Projeto realizado em acompanhamento ao curso: <a href="https://cursos.alura.com.br/course/api-django-3-rest-framework" target="_blank">api-django-3-rest-framework</a> 
 
 ### Contribuições
 
