@@ -60,15 +60,15 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
 
 ### Rotas
 
-- <URL_API>/alunos/
-- <URL_API>/cursos/
-- <URL_API>/matriculas/
-- <URL_API>/alunos/<id>/matriculas/
-- <URL_API>/cursos/<id>/matriculas/
+- `<URL_API>/alunos/`
+- `<URL_API>/cursos/`
+- `<URL_API>/matriculas/`
+- `<URL_API>/alunos/<id>/matriculas/`
+- `<URL_API>/cursos/<id>/matriculas/`
 
 ### Informações adicionais
 
-- Projeto realizado em acompanhamento ao curso: <a href="https://cursos.alura.com.br/course/api-django-3-rest-framework" target="_blank">api-django-3-rest-framework</a> 
+- Projeto realizado em acompanhamento ao curso: <a href="https://cursos.alura.com.br/course/api-django-3-rest-framework">api-django-3-rest-framework</a> 
 
 ### Contribuições
 
