@@ -30,11 +30,17 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
 - `$ source .venv/bin/activate`
 - `$ pip install -r requirements.txt`
 
+- se for executar o container docker, necessário docker.io instalado
+
+
 ### Instalação
 
 - `$ ./manage.py migrate`
 - `$ ./manage.py createsuperuser`
 - `$ ./manage.py runserver`
+
+- with docker-compose
+> - `$ docker-compose up -d`
 
 ### Comandos adicionais
 
