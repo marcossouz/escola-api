@@ -15,28 +15,40 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
 <p align="center">
  <a href="#pré-requisitos">Pré Requisitos</a> •
  <a href="#instalação">Instalação</a> •
+ <a href="#comandos-adicionais">Comandos adicionais</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#status">status</a> •
  <a href="#funcionalidades">Funcionalidades</a> •
+ <a href="#rotas">Rotas</a> •
+ <a href="#informações-adicionais">Informações adicionais</a> •
  <a href="#contribuições">Autor</a>
 </p>
 
 ### Pré Requisitos
 
+- `$ python3 -m venv .venv`
+- `$ source .venv/bin/activate`
+- `$ pip install -r requirements.txt`
 
 ### Instalação
 
-- 
+- `$ ./manage.py migrate`
+- `$ ./manage.py createsuperuser`
+- `$ ./manage.py runserver`
+
+### Comandos adicionais
+
+- Ao instalar novos pacotes: `$ pip freeze > requirements.txt`
 
 ### Tecnologias
 
-- 
+- Django Rest Framework
+- SQLite
+
 
 ### Status
 
-<h4 align="center">
-Projeto de estudos finalizado.
-</h4>
+- Projeto de estudos finalizado.
 
 ### Funcionalidades
 
@@ -45,6 +57,18 @@ Projeto de estudos finalizado.
 - [x] Manter Matrícula
 - [x] Listar todos os alunos de um curso
 - [x] Listar todos os cursos que um aluno está matriculado
+
+### Rotas
+
+- <URL_API>/alunos/
+- <URL_API>/cursos/
+- <URL_API>/matriculas/
+- <URL_API>/alunos/<id>/matriculas/
+- <URL_API>/cursos/<id>/matriculas/
+
+### Informações adicionais
+
+- Projeto realizado em acompanhamento ao curso: <a herf="https://cursos.alura.com.br/course/api-django-3-rest-framework">api-django-3-rest-framework</a> 
 
 ### Contribuições
 
