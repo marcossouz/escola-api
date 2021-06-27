@@ -13,7 +13,7 @@ Uma API de uma escola, capaz de criar alunos, visualizar os dados desse aluno, a
 </p>
 
 <p align="center">
- <a href="#pre-requisitos">Pré Requisitos</a> •
+ <a href="#pré-requisitos">Pré Requisitos</a> •
  <a href="#instalação">Instalação</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#status">status</a> •
